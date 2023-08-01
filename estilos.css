@@ -1,0 +1,39 @@
+img#centrar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    border-radius: 150px;
+    height: 420px;
+    border: 1px solid black;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap');
+h1#nombre, h2#educacion, h2#habilidades, h2#proyectos, h2#contacto{
+    font-family: 'Dancing Script', cursive;
+   font-family: 'Pacifico', cursive;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Pacifico&display=swap');
+
+p.presentacion{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Pacifico', cursive;
+}
+
+body{
+    background-color: rgb(123, 178,212);
+   
+    cursor: grab;
+}
+
+.index{
+    color: black;
+    transition: color 0.3s;
+
+}
+.index:hover{
+    color: purple;
+}
